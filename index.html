@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        span{
+            text-align:right
+        }
+
+        .input2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <script src="script.js"></script>
+
+<div class="input1">
+
+    <p style="font-size: larger;"> <span>ادخل المتغييرات  <br> <strong>a</strong> و <strong>b</strong> و <strong>c</strong>
+    <br> <strong>ax²+bx+c = 0</strong> للمعادلة </span>
+    <div class="input2">
+    <form name="input_form" action="javascript:validata() ;">
+        a: <input style="margin:5px;" type="number" name="ain" size="5" required> <br>
+        b: <input style="margin:5px;" type="number" name="bin" required> <br>
+        c: <input style="margin:5px;" type="number" name="cin" required> <br>
+        <input style="margin-top: 20px;" type="submit" value="احسب">
+    </form>
+    </div>  
+    <p style="margin-top: 20px;" id="output_text"></p>
+
+    <p style="height: 500px; font-family: poppins;"> created by&emsp;<a href="">Azzoug Ibrahim</a></p>
+
+</div>
+    </p>
+</body>
+</html>
